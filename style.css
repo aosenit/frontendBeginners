@@ -40,7 +40,7 @@ button {
 
 .gridContainer {
   border: 1px solid #ccc;
-  flex: 0.9;
+  height: 90%;
   aspect-ratio: 1/1;
   width: 100%;
   margin: 0.5rem 0;
@@ -78,4 +78,8 @@ button {
 
 .hide {
   display: none;
+}
+.playerTurn {
+  color: var(--btnColor);
+  font-size: large;
 }
